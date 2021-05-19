@@ -1,30 +1,17 @@
-title: Haveno DEX
+title: Haveno
 email: havenodex@protonmail.com
-description: Monero-based P2P exchange
+description: Monero-based decentralized P2P exchange
 baseurl: ""
 url: "https://haveno.org"
 twitter_username: HavenoDEX
+keywords: "monero, xmr, bitcoin, btc, cryptocurrency, exchange, p2p, tor"
 
 # Build settings
 plugins:
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude: ["README.md", LICENSE]
+
+sitemap:
+  exclude:
+    - "/404.html"
