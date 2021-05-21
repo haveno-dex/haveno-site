@@ -1,7 +1,7 @@
 @font-face {
   font-family: NanumGothic;
   font-weight: bold;
-  src: url(/assets/fonts/NanumGothic-Bold.ttf);
+  src: url('/haveno-site/assets/fonts/NanumGothic-Bold.ttf');
 }
 
 html {
@@ -31,7 +31,7 @@ a.button {
   color: rgb(253, 254, 255);
   width: 10rem;
   text-decoration: none;
-  border: 1px solid rgba(252,253,255,0.7);
+  border: 1px solid rgba(252, 253, 255, 0.7);
   border-radius: 0.618em;
   padding: 1em;
 }
@@ -46,11 +46,11 @@ a.button:hover {
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
 }
 
 .box {
@@ -66,7 +66,7 @@ a.button:hover {
   padding: 1em;
   flex-direction: row;
   justify-content: space-around;
-  flex-wrap : wrap;
+  flex-wrap: wrap;
 }
 
 .listItem {
