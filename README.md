@@ -2,6 +2,8 @@
 
 Repository of the Haveno Website. Built on jekyll.
 
+https://haveno.exchange
+
 To test it locally:
 
 - Install jekyll: https://jekyllrb.com/
