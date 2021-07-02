@@ -1,14 +1,19 @@
 @font-face {
-  font-family: NanumGothic;
-  font-weight: bold;
-  src: url('/assets/fonts/NanumGothic-Bold.ttf');
+  font-family: 'nanumgothicbold';
+  src: url('/assets/fonts/nanumgothic-bold.eot');
+  src: url('/assets/fonts/nanumgothic-bold.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/nanumgothic-bold.woff2') format('woff2'),
+       url('/assets/fonts/nanumgothic-bold.woff') format('woff'),
+       url('/assets/fonts/nanumgothic-bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 html {
   font-size: 14px;
   background-color: rgb(38, 26, 43);
   color: rgb(253, 254, 255);
-  font-family: "NanumGothic", "sans-serif";
+  font-family: "nanumgothicbold", "sans-serif";
 }
 
 h1 {
