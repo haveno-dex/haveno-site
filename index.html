@@ -1,25 +1,96 @@
 ---
 layout: default
 title: Home
+summary: {{ site.description }}
 ---
 
-<div class="container">
-    <div class="box">
-    <img width="94%" src="{{ site.url }}/assets/haveno_logo_landscape1.png" alt="Haveno banner with logo"/>
-        <h1>Peer to peer Monero powered exchange.</h1>
-        <div class="list">
-            <div class="listItem">
-                <a class="button" href="https://github.com/haveno-dex/">GitHub</a>
-            </div>
-            <div class="listItem">
-                <a class="button" href="https://github.com/haveno-dex/haveno/wiki/FAQ">FAQ</a>
-            </div>
-            <div class="listItem">
-                <a class="button" href="https://twitter.com/HavenoDEX">Twitter</a>
-            </div>
-            <div class="listItem">
-                <a class="button" href="https://matrix.to/#/!cSwJDzxRuWndmFUZTd:haveno.network?via=libera.chat&via=matrix.org&via=monero.social">Matrix</a>
-            </div>
+<div class="row center">
+    <h1>Opening Monero to the world</h1>
+    <img class="centered homelogo pulse" width="94%" src="{{ site.url }}/assets/haveno_logo_icon.png"
+        alt="Haveno banner with logo" />
+</div>
+<div class="row">
+    <p class="text-centered">Haveno will be a non-custodial, decentralized exchange for crypto and national currencies
+        built on Tor and Monero.</p>
+    <p class="text-centered">Cannot get more private than that.</p>
+    <div class="box-container">
+        <div class="feature-box center shadow">
+            <img class="feature" src="{{ site.url }}/assets/tor.png">
+            <h3>built on Tor</h3>
+            <p>All connections to Haveno run through Tor. Your private information are safe.</p>
+        </div>
+        <div class="feature-box center shadow">
+            <img class="feature" src="{{ site.url }}/assets/monero.png">
+            <h3>built on monero</h3>
+            <p>Monero makes transactions on Haveno fast, cheap and completely private.</p>
         </div>
     </div>
+    <div class="box-container">
+        <div class="feature-box center shadow">
+            <img class="feature" src="{{ site.url }}/assets/padlock.png">
+            <h3>non-custodial</h3>
+            <p>You are the only person in total control of your fund on Haveno.</p>
+        </div>
+        <div class="feature-box center shadow">
+            <img class="feature" src="{{ site.url }}/assets/easy.png">
+            <h3>Easy to use</h3>
+            <p>Everyone should be able to use a P2P exchange, not only power users.</p>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <h2>Development and Bounties</h2>
+    <p>Haveno will be composed by a <a href="https://github.com/haveno-dex/haveno-ui-poc">user interface (in
+            ReactJS)</a> and a <a href="https://github.com/haveno-dex/haveno">core app (In Java)</a>. The two will
+        communicate through gRPC APIs.</p>
+    <p>Development is incentivized through bounties, that are awarded in XMR. See <a
+            href="https://github.com/haveno-dex/haveno/blob/master/docs/README.md">the docs page on GitHub</a>.</p>
+</div>
+<div class="row">
+    <h2>Blog</h2>
+    <p>These are our last three blog posts. <a href="/blog/">Visit the Blog</a> for the full list.</p>
+    <div class="box-container">
+        {% for post in site.posts limit: 3 %}
+        <div class="post-box shadow">
+            <h3>{{ post.title }}</h3>
+            <p class="date-post">{{ post.date | date_to_string }}</p>
+            <p>{{ post.excerpt }}</p>
+            <a class="button" href="{{ post.url }}">read more</a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+<div class="row">
+    <h2>Stay connected</h2>
+    <p>Join our community and help us build Haveno!</p>
+    <div class="social-container">
+        <div class="social-box">
+            <a href="https://github.com/haveno-dex" title="GitHub"><img class="social-icon"
+                    src="assets/icons/social/github.svg"></a>
+        </div>
+        <div class="social-box">
+            <a href="https://twitter.com/HavenoDEX/" title="Twitter"><img class="social-icon"
+                    src="assets/icons/social/twitter.svg"></a>
+        </div>
+        <div class="social-box">
+            <a href="https://matrix.to/#/#space:haveno.network" title="Matrix"><img class="social-icon"
+                    src="assets/icons/social/matrix.svg"></a>
+        </div>
+        <div class="social-box">
+            <a href="https://t.me/HavenoDEX" title="Telegram (unofficial)"><img class="social-icon"
+                    src="assets/icons/social/telegram.svg"></a>
+        </div>
+        <div class="social-box">
+            <a href="irc://irc.libera.chat/#haveno" title="IRC/Libera"><img class="social-icon"
+                    src="assets/icons/social/chat-irc.svg"></a>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <h2>FAQ</h2>
+    <p>We get a lot of questions about Haveno and how it will work. We wrote the answers to the most asked questions. If
+        you have more, feel free to reach out!</p>
+</div>
+<div class="center">
+    <a class="button faq" href="/faq/">FAQ</a>
 </div>

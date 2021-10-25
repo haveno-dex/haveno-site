@@ -1,14 +1,19 @@
-title: Haveno
+title: Haveno DEX
 email: havenodex@protonmail.com
-description: Monero-based decentralized P2P exchange
+description: Decentralized exchange based on Monero and Tor
 baseurl: ""
 url: "https://haveno.exchange"
 twitter_username: HavenoDEX
 keywords: "monero, xmr, bitcoin, btc, cryptocurrency, exchange, p2p, tor"
 
+# paginate
+paginate: 10
+paginate_path: "/blog/page:num/"
+
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 exclude: ["README.md", LICENSE]
 
