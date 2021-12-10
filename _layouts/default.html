@@ -8,11 +8,11 @@
     <meta name="{{ site.title }}" content="{{ site.description }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="{{ site.keywords }}">
-    <meta name="description" content="{{ page.summary }}">
+    <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}">
 
     <meta property="og:title" content="Haveno
     {% if page.title %} | {{ page.title }}{% endif %}" />
-    <meta property="og:description" content="{{ page.summary }}" />
+    <meta property="og:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="{{ site.url }}/{{ page.url }}" />
     <meta property="og:image" content="{{ site.url }}/assets/haveno_logo_icon.png" />
@@ -21,7 +21,7 @@
     <meta name="twitter:site" content="@HavenoDEX" />
     <meta name="twitter:title" content="Haveno
     {% if page.title %} | {{ page.title }}{% endif %}" />
-    <meta name="twitter:description" content="{{ page.summary }}" />
+    <meta name="twitter:description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="twitter:image" content="{{ site.url }}/assets/haveno_logo_landscape.png" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/assets/icons/apple-touch-icon.png">
