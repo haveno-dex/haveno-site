@@ -80,13 +80,13 @@ Haveno is based on Monero allowing traders to take advantage of the very low tra
 
 Haveno will be faster because of three main factors:
 
-- The bitcoin network is slow and blocks are often full. This result in the user having to wait for long time (sometimes even >24h) or pay high transaction fees to see their transaction included in a block. Haveno has Monero instead of Bitcoin at its core. This results in exponentially lower transaction fees and faster inclusion in a block (dynamic blocksize).
+- The bitcoin network is slow and blocks are often full. This results in the user having to wait for long time (sometimes even >24h) or pay high transaction fees to see their transaction included in a block. Haveno has Monero instead of Bitcoin at its core. This results in exponentially lower transaction fees and faster inclusion in a block (dynamic blocksize).
 - [A research](https://github.com/haveno-dex/haveno-meta/blob/master/haveno-performance-report.md) by an Haveno contributor demonstrated that resources consumption of Bisq is dominated by JavaFX, which causes the entire app to be slow and sometimes unresponsive. Haveno will have its own frontend separated by the backend. This will cause a much lower resource usages and will result in a much better experience for the end user.
 - No DAO, which is very resource hungry and need to be synchronized each time Bisq is used. This impacts user experience heavily, especially if the user haven't used Bisq in a long time.This important problem will not effect us, since we will not use the DAO, as explained [later in this FAQ](#why-no-dao).
 
 ## What are the differences in the trade protocol
 
-The current trade protocol of Haveno is on Github: [docs/trade-protocol.md](https://github.com/haveno-dex/haveno/blob/master/docs/trade-protocol.md)
+The current trade protocol of Haveno is on Github: [docs/trade-protocol.md](https://github.com/haveno-dex/haveno/blob/master/docs/trade_protocol/trade-protocol.md)
 
 Bisq recently adopted a protocol based on a 2/2 multisignature, while Haveno will use their previous protocol: 2/3 multisignature. In a 2/3 multisignature trade, each trader owns one key, this key will be paired with the key of the other trader and will be used to unlock funds and deposits. It's a 2 of 3 (2/3) protocol because you need only two out of three keys to move funds from the multisignature wallet.
 
