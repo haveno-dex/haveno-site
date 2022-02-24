@@ -56,7 +56,7 @@ But Haveno brings several improvements over Bisq:
 
 Bisq doesn't offer strong privacy to its users and have had multiple problems, which resulted in their user's privacy being compromised.
 
-- Because of [Bitcoin's lack of fungibility](https://blog.sethforprivacy.com/posts/fungibility-graveyard/) and privacy proprieties, every transaction and address on the BTC blockchain are easily traceable. Anybody can check who a BTC user transacted to and the amount of the transaction. This design flaw has allowed and empowered blockchain surveillance companies.
+- Because of [Bitcoin's lack of fungibility](https://sethforprivacy.com/posts/fungibility-graveyard/) and privacy proprieties, every transaction and address on the BTC blockchain are easily traceable. Anybody can check who a BTC user transacted to and the amount of the transaction. This design flaw has allowed and empowered blockchain surveillance companies.
 - It's trivial to identify on the Bitcoin blockchain which transactions come from a Bisq exchange. This compromises the privacy of Bisq's traders.
 - As a result of the points above: there have been reports of Bisq users seeing [their accounts on centralized exchanges frozen](https://bisq.community/t/dirty-btc-coins-on-the-xmr-market/7798) after they sent BTC from Bisq to the account on the exchange. This means exchanges actively flag coins coming from Bisq as risky.
 - The BSQ token is a huge privacy concern, when used to pay transaction fees on Bisq, it makes possible to link a transaction with a specific Bisq user.
