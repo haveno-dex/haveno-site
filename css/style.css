@@ -271,7 +271,6 @@ footer ul {
 .foot-container {
   max-width: 71rem;
   margin: 0 auto;
-  padding: 1rem 0;
   display: flex;
   justify-content: space-between;
 }
@@ -458,6 +457,7 @@ img.top-banner {
 
   .nav-container {
     width: 71rem;
+    height: 4rem;
   }
 }
 
