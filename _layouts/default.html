@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Haveno{% if page.title %} | {{ page.title }}{% endif %}</title>
-    <link rel="stylesheet" href="{{ site.url }}/css/style.css" />
+    <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}" />
     <meta name="{{ site.title }}" content="{{ site.description }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="keywords" content="{{ site.keywords }}">

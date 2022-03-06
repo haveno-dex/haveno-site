@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'nanumgothicbold';
-  src: url('/assets/fonts/nanumgothic-bold.eot');
-  src: url('/assets/fonts/nanumgothic-bold.eot?#iefix') format('embedded-opentype'),
-       url('/assets/fonts/nanumgothic-bold.woff2') format('woff2'),
-       url('/assets/fonts/nanumgothic-bold.woff') format('woff'),
-       url('/assets/fonts/nanumgothic-bold.ttf') format('truetype');
+  src: url('../fonts/nanumgothic-bold.eot');
+  src: url('../fonts/nanumgothic-bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/nanumgothic-bold.woff2') format('woff2'),
+       url('../fonts/nanumgothic-bold.woff') format('woff'),
+       url('../fonts/nanumgothic-bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
