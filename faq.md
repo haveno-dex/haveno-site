@@ -7,10 +7,21 @@ summary: Frequently asked questions about Haveno
 
 # Table of contents
 
+## General
+
 - [What's the meaning of Haveno?](#whats-the-meaning-of-haveno)
 - [When will Haveno be ready for use?](#when-will-haveno-be-ready-for-use)
 - [What currencies will be listed?](#what-currencies-will-be-listed)
-- [Why a new platform? What are the key differences compared to Bisq](#why-a-new-platform-what-are-the-key-differences-compared-to-bisq)
+- [What's the structure of Haveno?](#whats-the-structure-of-haveno)
+- [Will there be KYC?](#will-there-be-kyc)
+- [Where can I find the details on how the platform will work?](#where-can-i-find-details-on-how-the-platform-will-work)
+- [Do you have more docs?](#do-you-have-more-docs)
+- [What are arbitrators? Why do you need them?](#what-are-arbitrators-why-do-you-need-them)
+- [What are the fees for trading on Haveno?](#what-are-the-fees-for-trading-on-haveno)
+
+## Bisq and Haveno
+
+- [Why a new platform? What are the key differences compared to Bisq?](#why-a-new-platform-what-are-the-key-differences-compared-to-bisq)
   - [Haveno is privacy-focused](#haveno-is-privacy-focused)
   - [Haveno is simpler](#haveno-is-simpler)
   - [Haveno is cheaper](#haveno-is-cheaper)
@@ -19,7 +30,9 @@ summary: Frequently asked questions about Haveno
 - [Will there be an Haveno token like Bisq has BSQ?](#will-there-be-an-haveno-token-like-bisq-has-bsq)
 - [Why no DAO?](#why-no-dao)
 
-## What's the meaning of Haveno?
+# General
+
+## [What's the meaning of Haveno?](#whats-the-meaning-of-haveno)
 
 Haveno is an Esperanto word that means 'harbour' or 'port'.
 
@@ -28,11 +41,11 @@ Pronunciation:
 PA(key): /haˈveno/
 Hyphenation: ha‧ve‧no
 
-## When will Haveno be ready for use?
+## [When will Haveno be ready for use?](#when-will-haveno-be-ready-for-use)
 
 We hope Haveno will be ready to be deployed by the end of 2022.
 
-## What currencies will be listed?
+## [What currencies will be listed?](#what-currencies-will-be-listed)
 
 We plan to launch with support for at least:
 
@@ -42,7 +55,55 @@ Fiat: Euro (EUR), US Dollars (USD), British Pounds (GBP)
 
 This list is not final. We will have a small set of currencies at launch, but more will follow shortly after.
 
-## Why a new platform? What are the key differences compared to Bisq
+## [What's the structure of Haveno?](#whats-the-structure-of-haveno)
+
+We explained the structure of Haveno in detail in a [dedicated blog post]({{ site.baseurl }}/2022/02/02/haveno-structure.html). Here's a summary:
+
+- Half of the fees paid on Haveno will be used to advance Monero and Haveno development
+
+- There will be a CCS-like entity called Engine, which will decide which projects/individuals to sponsor using the fees sent by Haveno
+
+- Engine will be composed by a council (Engine Council), composed by 5 trusted members of the Monero and Haveno developer community (including one Monero Core Team member)
+
+Thanks to the funds that will be sent to Engine, Haveno will be a major contributor to Monero development, allowing Monero to cease its reliance on generous donors and become self-sustaining.
+
+While this structure is exciting and opens a lot of doors, we want Haveno to be as decentralized and robust as possible. That's why we will always look for ways to decentralize things further.
+
+## [Will there be KYC?](#will-there-be-kyc)
+
+No. Haveno was created out of the desire to provide people a peer to peer and decentralized way to exchange Monero for fiat currency. Haveno is and will always be non-KYC.
+
+## [Where can I find details on how the platform will work?](#where-can-i-find-details-on-how-the-platform-will-work)
+
+Haveno's trade protocol is [explained in detail on Github](https://github.com/haveno-dex/haveno/blob/master/docs/trade_protocol/trade-protocol.md).
+
+## [Do you have more docs?](#do-you-have-more-docs)
+
+Our documentation can be found [in our GitHub Repository](https://github.com/haveno-dex/haveno/tree/master/docs). It contains protcol details, contributing guides, installation instructions, and more.
+
+## [What are arbitrators? Why do you need them?](#what-are-arbitrators-why-do-you-need-them)
+
+Arbitrators are the last step of conflict resolution on Haveno, coming after traders attempt to settle disputes by themselves using the chat embedded in the platform, and we inherit them from Bisq. They have a crucial role in the trade process, because they hold one of the three keys during a trade.
+
+Holding one of the three keys makes them a sensitive role, because they could theoretically collude with one of the 2 traders. We are exploring the possibility of [migrating to a 2/2 multisig protocol instead of 2/3](https://github.com/haveno-dex/haveno-meta/issues/14), but for the time being, we will adopt several measures to drastically reduce the risks for traders:
+
+- Arbitrators will be picked up randomly from the pool of available arbitrators. This reduces drastically the possibility of collusion, because traders have no possibility of choosing an arbitrator.
+
+- Arbitrators will probably set bonds. These bonds will be locked in the [Engine platform](#whats-the-structure-of-haveno) and will be used to cover the loss of the victim in case of a malicious arbitrator.
+
+- Arbitrators will be trusted members of the Haveno and Monero community, and they will be appointed by the Engine Council in collaboration with the aforementioned community.
+
+## [What are the fees for trading on Haveno?](#what-are-the-fees-for-trading-on-haveno)
+
+Haveno traders will pay two fees. The fee for transacting on the Monero network (a fraction of a cent) and the Haveno fee.
+
+We haven't made a final decision on the amount of the Haveno fee, but it will most likely be less than 1% of the traded amount.
+
+All fees paid on Haveno will be sent to Engine (see [What's the structure of Haveno?](#whats-the-structure-of-haveno)), where they will be used to reward contributors, pay for Haveno development and infrastructure, fund Monero development and research, and more. Fees are also used as an anti-spam mechanism to avoid abuse.
+
+# Bisq and Haveno
+
+## [Why a new platform? What are the key differences compared to Bisq?](#why-a-new-platform-what-are-the-key-differences-compared-to-bisq)
 
 Haveno is a fork of Bisq and shares some of its strengths, such as:
 
@@ -52,7 +113,7 @@ Haveno is a fork of Bisq and shares some of its strengths, such as:
 
 But Haveno brings several improvements over Bisq:
 
-### Haveno is privacy-focused
+### [Haveno is privacy-focused](#haveno-is-privacy-focused)
 
 Bisq doesn't offer strong privacy to its users and has had multiple issues which resulted in the privacy of their users being compromised.
 
@@ -66,17 +127,17 @@ Bisq doesn't offer strong privacy to its users and has had multiple issues which
 
 From the points above we can see how trading on Bisq is not private and could result in the deanonymization of traders and contributors. Haveno has no token- it's based on Monero and has privacy as a core principle.
 
-### Haveno is simpler
+### [Haveno is simpler](#haveno-is-simpler)
 
 Bisq has a very complex and resource hungry user interface. One of our main goals is to provide the user with a simple tool that won't require any technical knowledge.
 
-### Haveno is cheaper
+### [Haveno is cheaper](#haveno-is-cheaper)
 
 Bisq is based on Bitcoin and inherits its historically high transaction fees, which are added to tradefees on the platform.
 
 Haveno is based on Monero, allowing traders to take advantage of very low transaction fees (see the [comparison between XMR and BTC](https://bitinfocharts.com/comparison/transactionfees-btc-xmr.html#1y)), resulting in more convenient trades, especially for low amounts.
 
-### Haveno is faster
+### [Haveno is faster](#haveno-is-faster)
 
 Haveno will be faster because of three main factors:
 
@@ -84,7 +145,7 @@ Haveno will be faster because of three main factors:
 - [Research](https://github.com/haveno-dex/haveno-meta/blob/master/haveno-performance-report.md) by a Haveno contributor demonstrated that the resource consumption of Bisq is dominated by JavaFX, which causes the entire app to be slow and sometimes unresponsive. Haveno will have its own frontend separated by the backend. This will result in much lower resource usage and a much better experience for the end user.
 - It has no DAO, which is very resource hungry and needs to be synchronized each time the app is launched on Bisq. This impacts user experience heavily, especially if the user hasn't used Bisq in a long time. This important problem will not affect us, since we will not use the DAO, as explained [later in this FAQ](#why-no-dao).
 
-## What are the differences in the trade protocol
+## [What are the differences in the trade protocol?](#what-are-the-differences-in-the-trade-protocol)
 
 The current trade protocol of Haveno is on Github: [docs/trade-protocol.md](https://github.com/haveno-dex/haveno/blob/master/docs/trade_protocol/trade-protocol.md)
 
@@ -101,11 +162,11 @@ Using arbitrators has drawbacks:
 
 These issues are solved by employing a small number of trusted arbitrators with strong operational security knowledge that will serve in their roles anonymously.
 
-## Will there be an Haveno token like Bisq has BSQ?
+## [Will there be an Haveno token like Bisq has BSQ?](#will-there-be-an-haveno-token-like-bisq-has-bsq)
 
 No. The BSQ token is meant to be the key factor of Bisq's DAO. We won't implement Bisq's DAO and the trades on the platform are based on multisignature transactions. There is no need for a token in the Haveno protocol.
 
-## Why no DAO?
+## [Why no DAO?](#why-no-dao)
 
 Bisq's DAO is an interesting and innovative governance mechanism, but currently seems to be an unnecessary complication that takes a lot of resources to maintain. Bisq contributors earn BSQ tokens according to how much they contribute to Bisq and the roles they cover inside the project. The more BSQ a person has earned, the more voting power they have.
 
@@ -122,4 +183,3 @@ Bisq's DAO has several important flaws that make its effectiveness as a tool for
 - There seems to be no expiring date for roles or maximum amount of roles that a contributor can cover. As a result, long term Bisq contributors (who already cover multiple roles) will always gain more BSQ than a newcomer, and unless they decide on their own to leave some roles, there is no way for a new contributor to have as much voting power as a veteran Bisq contributor. The new contributor could make large contributions that would earn them a huge amount of BSQ, but even in that case the release of BSQ is voted on with the mechanism we mentioned earlier, so veteran Bisq contributors (with more voting power) could vote against releasing rewards to the newcomer if they feel their power threatened.
 
 - We already mentioned that a [recent paper](https://arxiv.org/pdf/2007.07048.pdf) demonstrated that it's possible to track Bisq contributors participating to Bisq's DAO and deanonymize them.
-
