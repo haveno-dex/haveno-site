@@ -1,3 +1,5 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/88372b69b62341ebb053e5bdaf791b13)](https://app.codacy.com/gh/haveno-dex/haveno-site/)
+
 # Haveno Website
 
 Repository of the Haveno Website. Built on jekyll.
