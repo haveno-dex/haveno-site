@@ -63,7 +63,7 @@ We explained the structure of Haveno in detail in a [dedicated blog post]({{ sit
 
 - There will be a CCS-like entity called Engine, which will decide which projects/individuals to sponsor using the fees sent by Haveno
 
-- Engine will be composed by a council (Engine Council), composed by 5 trusted members of the Monero and Haveno developer community (including one Monero Core Team member)
+- Engine will be administrated by a council (Engine Council) consisting of 5 trusted members from the Monero and Haveno developer community (including one Monero Core Team member)
 
 Thanks to the funds that will be sent to Engine, Haveno will be a major contributor to Monero development, allowing Monero to cease its reliance on generous donors and become self-sustaining.
 
