@@ -18,6 +18,7 @@ summary: Frequently asked questions about Haveno
 - [Do you have more docs?](#do-you-have-more-docs)
 - [What are arbitrators? Why do you need them?](#what-are-arbitrators-why-do-you-need-them)
 - [What are the fees for trading on Haveno?](#what-are-the-fees-for-trading-on-haveno)
+- [Is Haveno ready? Can we test it?](#is-haveno-ready-can-we-test-it)
 
 ## Bisq and Haveno
 
@@ -100,6 +101,10 @@ Haveno traders will pay two fees. The fee for transacting on the Monero network 
 We haven't made a final decision on the amount of the Haveno fee, but it will most likely be less than 1% of the traded amount.
 
 All fees paid on Haveno will be sent to Engine (see [What's the structure of Haveno?](#whats-the-structure-of-haveno)), where they will be used to reward contributors, pay for Haveno development and infrastructure, fund Monero development and research, and more. Fees are also used as an anti-spam mechanism to avoid abuse.
+
+## [Is Haveno ready? Can we test it?](#is-haveno-ready-can-we-test-it)
+
+Haveno is not ready yet, but the trade protocol is already working (like most of the backend). People can already make test trades using the legacy user interface (inherited from Bisq).
 
 # Bisq and Haveno
 
