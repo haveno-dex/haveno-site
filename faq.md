@@ -19,6 +19,7 @@ summary: Frequently asked questions about Haveno
 - [What are arbitrators? Why do you need them?](#what-are-arbitrators-why-do-you-need-them)
 - [What are the fees for trading on Haveno?](#what-are-the-fees-for-trading-on-haveno)
 - [Is Haveno ready? Can we test it?](#is-haveno-ready-can-we-test-it)
+- [Can I already try Haveno?](#can-i-already-try-haveno)
 
 ## Bisq and Haveno
 
@@ -105,6 +106,10 @@ All fees paid on Haveno will be sent to Engine (see [What's the structure of Hav
 ## [Is Haveno ready? Can we test it?](#is-haveno-ready-can-we-test-it)
 
 Haveno is not ready yet, but the trade protocol is already working (like most of the backend). People can already make test trades using the legacy user interface (inherited from Bisq).
+
+## [Can I already try Haveno?](#can-i-already-try-haveno)
+
+Yes, it's already possible to make test trades on our shared Monero stagenet, using the legacy user interface. It's possible to test trades between xmr <-> fiat and xmr <-> crypto. See the instructions for [running your local Haveno test instance](https://github.com/haveno-dex/haveno/blob/master/docs/installing.md).
 
 # Bisq and Haveno
 
