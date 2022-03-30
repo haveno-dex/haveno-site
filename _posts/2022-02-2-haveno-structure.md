@@ -12,7 +12,7 @@ While the CCS was open and being discussed, some Monero community members came u
 
 This is very exciting for us. The idea behind Haveno sparked out of the desire to provide a decentralized and **P2P platform where people can sell and buy Monero for fiat or other cryptocurrencies, while at the same time fund and support Monero development**. This new structure will make it much easier to reach that goal.
 
-## Monero's Engine
+### Monero's Engine
 
 The structure we have in mind is fairly simple and we hope the community will be as excited about it as we are.
 
@@ -22,7 +22,7 @@ The idea is to send **100% of the fees** paid by users on Haveno to a CCS system
 
 People will be able to propose their skills or maybe even post bounties. The Haveno and Monero communities will be called to comment on these proposals and the Engine Council will take the final decision about approving or rejecting the proposal. The Engine Council would have the same role the MCT currently has in the Monero CCS.
 
-## Engine Council
+### Engine Council
 
 We propose that the Engine Council is composed of 5 members of the Haveno and Monero communities. More specifically, we would like to have at least 1 member of the Monero Core Team, 1 long-term monero developer, and 1 Haveno community member chosen by the HCT in the council. The other members could be chosen within the Haveno and Monero communities.
 
@@ -32,7 +32,7 @@ As stated above, the council will vote to accept/refuse proposals. A multisig wa
 
 With this structure, Haveno won't need third parties or legal entities, since all fee earnings will be directly sent to the Engine fund after every trade.
 
-## The HCT and Haveno development
+### The HCT and Haveno development
 
 The Haveno core team will open **Engine proposals every 6/12 months**, asking to receive **half of the total fees** sent to Engine monthly in one month as compensation. This will ensure that the work of the HCT will stay accountable to the community and ensure that the leads of the projects are rewarded for their efforts (we are funding ourselves at the moment).
 
@@ -40,7 +40,7 @@ This structure will make the actions of the HCT accountable to the community, wh
 
 It's important to note that the HCT is very different from the MCT. The MCT adopts a hands-off approach, while we do the opposite. The HCT leads and is deeply involved in Haveno development and community growth/management.
 
-## Arbitrators and seednodes
+### Arbitrators and seednodes
 
 Arbitrators are a fundamental part of Haveno and will resolve trade disputes. They are sensitive role, because they hold one of the 3 keys of a trade on Haveno. Arbitrators will be trustworthy community members, who **will apply for the role through Engine proposals**. The community will vote and the Engine Council will take the final decision. The HCT will respect the decision of the Council and will provide arbitrators all the tools and support they need.
 
@@ -48,11 +48,11 @@ Arbitrators will be paid through Engine proposals and will be free to offer thei
 
 Seednodes will be run by the Haveno Core Team, but also by community members to ensure more network resistance. Note that seednodes are a sensitive part of the network and their operators have to be trusted members of the community. The HCT reserves the right to only add to the code base seed nodes that are run by long term and trusted Monero/Haveno community members.
 
-## The alternative
+### The alternative
 
 An alternative to Engine would be to rely on the MCT. Instead of creating a dedicated system, we could rely on the existent CCS, managed by the Monero Core team. This would centralize things on the MCT, but could make people more comfortable, since they are a trusted entity that stewards the Monero project. We are already in talks with the core team to see what they think about the two options.
 
-## How we see the future
+### How we see the future
 
 The important thing for us is to keep Haveno **decentralized and community focused**. We will always be looking to improve these aspects. That's why we don't exclude different governance systems in the future. For example, it could be interesting to plug Haveno into an external DAO for governance. It could be even more interesting to build this DAO on Monero! In the future we could have colored coins on the Monero blockchain or other mechanisms to empower the community. There are infinite possibilities. The point is that with the constant stream of funds, Haveno will provide: we will open the doors to a lot of possibilities that went unexplored until now because of the absence of a reliable stream of funds.
 
@@ -60,6 +60,6 @@ Let's make a practical example. Bisq's revenue in the month of January was about
 
 While we don't expect to reach Bisq's revenue numbers right after launch, we do think that Bisq is massively underperforming and we believe Haveno could dwarf their numbers in the future.
 
-## Conclusion
+### Conclusion
 
 These are exciting times. Funding is the main issue of any open source project. See Bitcoin for an example: it has recently seen developers leaving the project because they could not afford to work on it as volunteers anymore and there were no chances of being funded. The Engine system would resolve this problem and **revolutionize the way Monero is developed, all while making it self-sustaining**. We look forward to receive feedback from the community.

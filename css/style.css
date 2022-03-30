@@ -89,13 +89,6 @@ p.small {
   font-size: 16px;
 }
 
-p.date-post {
-  font-family: cursive;
-  font-size: 1.4rem;
-  margin-top: 0;
-  margin-bottom: 0.6rem;
-}
-
 p.text-centered {
   text-align: center;
 }
@@ -495,4 +488,22 @@ img.top-banner {
   font-size: 1.4rem;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+/* POST */
+
+.post h2 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.post h3 {
+  font-size: 1.4rem;
+}
+
+p.date-post {
+  font-family: cursive;
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 0.6rem;
 }
