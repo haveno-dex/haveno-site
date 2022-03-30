@@ -71,7 +71,6 @@ h1 {
 h2 {
   font-size: 1.7rem;
   margin-bottom: 1rem;
-  margin-top: 3rem;
 }
 
 p,
@@ -93,6 +92,10 @@ p.text-centered {
   text-align: center;
 }
 
+.row {
+  margin-bottom: 2rem;
+}
+
 .center {
   display: flex;
   align-items: center;
@@ -101,13 +104,10 @@ p.text-centered {
 }
 
 .container {
+  margin-top: 5rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15rem;
-}
-
-.body-section {
-  padding-top: 5rem;
 }
 
 .box-container {
@@ -491,6 +491,10 @@ img.top-banner {
 }
 
 /* POST */
+
+.post {
+  margin-top: 3rem;
+}
 
 .post h2 {
   margin-bottom: 0;
