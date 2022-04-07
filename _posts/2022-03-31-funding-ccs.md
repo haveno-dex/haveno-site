@@ -2,6 +2,7 @@
 layout: post
 title: We are now accepting donations for building Haveno's user interface!
 excerpt: Haveno's CCS proposal has been accepted and it's now open for donations
+author: Haveno Core Team
 ---
 
 We are happy to announce that our [Monero CCS proposal](https://ccs.getmonero.org/proposals/haveno-frontend.html) for funding the development of Haveno's user interface (the [design is on Figma](https://www.figma.com/file/ijVTy2RIF8j36LF5y2sRtt/Haveno-Product-Design?node-id=856%3A5172)) has been accepted and it's now open for donations!
