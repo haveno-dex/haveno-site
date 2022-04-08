@@ -2,6 +2,7 @@
 layout: post
 title: "The improved structure of Haveno. Key word: Decentralization"
 excerpt: Haveno will become more decentralized and a key contributor to Monero development
+author: Haveno Core Team
 ---
 
 Hey folks, we have some exciting news to share about the structure of Haveno.
