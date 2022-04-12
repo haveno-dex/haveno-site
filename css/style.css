@@ -483,11 +483,50 @@ img.top-banner {
   color: grey;
 }
 
+.blog a.blog-pointer {
+  color: inherit;
+}
+
+.blog a.blog-pointer h2 {
+  color: #e2634e;
+}
+
+.blog a.blog-pointer:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .blog p.date-post-blog {
   font-family: cursive;
   font-size: 1.4rem;
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.blog .blog-box-container {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.blog .blog-box {
+  height: 27rem;
+  max-width: 23rem;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  padding: 1rem 2rem;
+  border-radius: 10%;
+  background-color: white;
+}
+
+.pagination {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+p.paginator {
+  margin: 0;
 }
 
 /* POST */
