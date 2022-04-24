@@ -50,13 +50,31 @@ We hope Haveno will be ready to be deployed by the end of 2022.
 
 ## [What currencies will be listed?](#what-currencies-will-be-listed)
 
-We plan to launch with support for at least:
+We only support projects that we consider interesting or useful. The community will have the possibility to suggest their favourite crypto or fiat asset.
 
-Cryptocurrencies:  Monero (XMR), Bitcoin (BTC), Bitcoin Cash (BCH) , Ethereum (ETH)
+We will launch with support for:
 
-Fiat: Euro (EUR), US Dollars (USD), British Pounds (GBP)
+| Crypto | Fiat |
+|---|---|
+| Monero (XMR) | US Dollars (USD) |
+| Bitcoin (BTC) | Euro (EUR) |
+| Bitcoin Cash (BCH) | British Pounds (GBP) |
+| Ether (ETH) |
+| Litecoin (LTC) |
+| Zcash (ZEC) |
 
-This list is not final. We will have a small set of currencies at launch, but more will follow shortly after.
+As soon as we feel the platform is solid enough, we will add support for more crypto and fiat currencies, initially targeting:
+
+| Crypto | Fiat |
+|---|---| 
+| Dogecoin (DOGE) | Brazilian Real (BRL)
+| Siafund (SF) | Australian Dollar (AUD)
+| Namecoin (NMC) | Czech Koruna (CZK)| 
+| Townforge (TFG)* | Canadian dollar (CAD) |
+| | Indian Rupee (INR) |
+| | Swiss Franc (CHF) |
+
+\* *Townforge is still in test phase and will be added after it is officially released*
 
 ## [What's the structure of Haveno?](#whats-the-structure-of-haveno)
 
