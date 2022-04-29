@@ -61,7 +61,6 @@ We will launch with support for:
 | Bitcoin Cash (BCH) | British Pounds (GBP) |
 | Ether (ETH) |
 | Litecoin (LTC) |
-| Zcash (ZEC) |
 
 As soon as we feel the platform is solid enough, we will add support for more crypto and fiat currencies, initially targeting:
 
