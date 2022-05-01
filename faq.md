@@ -50,30 +50,18 @@ We hope Haveno will be ready to be deployed by the end of 2022.
 
 ## [What currencies will be listed?](#what-currencies-will-be-listed)
 
-We only support projects that we consider interesting or useful. The community will have the possibility to suggest their favourite crypto or fiat asset.
-
-We will launch with support for:
+We only support projects that we consider interesting or useful. We will launch with support for:
 
 | Crypto | Fiat |
 |---|---|
-| Monero (XMR) | US Dollars (USD) |
-| Bitcoin (BTC) | Euro (EUR) |
+| Bitcoin (BTC) | US Dollars (USD) |
+| Ether (ETH) | Euro (EUR) |
 | Bitcoin Cash (BCH) | British Pounds (GBP) |
-| Ether (ETH) |
 | Litecoin (LTC) |
 
-As soon as we feel the platform is solid enough, we will add support for more crypto and fiat currencies, initially targeting:
+*Note that all assets are paired with XMR, which is the base currency of the platform (XMR/EUR, XMR/USD, XMR/BTC, etc).*
 
-| Crypto | Fiat |
-|---|---| 
-| Dogecoin (DOGE) | Brazilian Real (BRL)
-| Siafund (SF) | Australian Dollar (AUD)
-| Namecoin (NMC) | Czech Koruna (CZK)| 
-| Townforge (TFG)* | Canadian dollar (CAD) |
-| | Indian Rupee (INR) |
-| | Swiss Franc (CHF) |
-
-\* *Townforge is still in test phase and will be added after it is officially released*
+As soon as we feel the platform is solid enough, we will add support for more crypto and fiat currencies, initially targeting some of the assets already listed on Bisq. The community can suggest assets by [opening an issue on the 'listing' repository](https://github.com/haveno-dex/listing) and using the correct template.
 
 ## [What's the structure of Haveno?](#whats-the-structure-of-haveno)
 
