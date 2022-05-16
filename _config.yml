@@ -6,6 +6,8 @@ url: "https://haveno.exchange"
 twitter_username: HavenoDEX
 keywords: "monero, xmr, bitcoin, btc, cryptocurrency, exchange, p2p, tor"
 
+permalink: pretty
+
 # paginate
 paginate: 6
 paginate_path: "/blog/page:num/"
@@ -14,6 +16,7 @@ paginate_path: "/blog/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 exclude: ["README.md", LICENSE]
 

@@ -1,5 +1,7 @@
 ---
 layout: post
+permalink: /blog/:title/
+redirect_from: /2022/03/31/funding-ccs.html
 title: We are now accepting donations for building Haveno's user interface!
 excerpt: Haveno's CCS proposal has been accepted and it's now open for donations
 author: Haveno Core Team

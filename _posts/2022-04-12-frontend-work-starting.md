@@ -1,5 +1,7 @@
 ---
 layout: post
+permalink: /blog/:title/
+redirect_from: /2022/04/12/frontend-work-starting.html
 title: "Funding campaign successfully completed: the next steps"
 excerpt: Work on Haveno's UI is starting. Updates and info for staying updated and contribute
 author: Haveno Core Team
