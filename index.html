@@ -62,12 +62,13 @@ title: Home
     <p>These are our last three blog posts. <a href="/blog/">Visit the Blog</a> for the full list.</p>
     <div class="box-container">
         {% for post in site.posts limit: 3 %}
-        <div class="post-box shadow">
-            <h3>{{ post.title }}</h3>
+        <a href="{{ post.url }}" class="blog-pointer">
+        <div class="blog-box shadow">
+            <h2>{{ post.title }}</h2>
             <p class="date-post">{{ post.date | date_to_string }}</p>
             <p>{{ post.excerpt }}</p>
-            <a class="button" href="{{ post.url }}">read more</a>
         </div>
+        </a>
         {% endfor %}
     </div>
 </div>
