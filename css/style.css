@@ -108,7 +108,7 @@ p.text-centered {
   margin-top: 5rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 15rem;
+  margin-bottom: 16rem;
 }
 
 .box-container {
@@ -570,4 +570,9 @@ p.date-post {
   font-size: 1.4rem;
   margin-top: 0;
   margin-bottom: 0.6rem;
+}
+
+.post a.button {
+  position: relative;
+  float: right;
 }
