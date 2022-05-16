@@ -506,15 +506,15 @@ img.top-banner {
   color: grey;
 }
 
-.blog a.blog-pointer {
+a.blog-pointer {
   color: inherit;
 }
 
-.blog a.blog-pointer h2 {
+a.blog-pointer h2 {
   color: #e2634e;
 }
 
-.blog a.blog-pointer:hover {
+a.blog-pointer:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
@@ -526,14 +526,14 @@ img.top-banner {
   margin-bottom: 0;
 }
 
-.blog .blog-box-container {
+.blog-box-container {
   margin-bottom: 1rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
-.blog .blog-box {
+.blog-box {
   height: 27rem;
   max-width: 23rem;
   margin-top: 1rem;
