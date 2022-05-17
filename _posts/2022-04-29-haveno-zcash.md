@@ -1,5 +1,7 @@
 ---
 layout: post
+permalink: /blog/:title/
+redirect_from: /2022/04/29/haveno-zcash.html
 title: Statement about the recent concerns about Haveno listing Zcash
 excerpt: Statement about the recent concerns about Haveno listing Zcash
 author: Haveno Core Team

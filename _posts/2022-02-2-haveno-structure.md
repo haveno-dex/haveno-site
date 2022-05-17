@@ -1,5 +1,7 @@
 ---
 layout: post
+permalink: /blog/:title/
+redirect_from: /2022/02/02/haveno-structure.html
 title: "The improved structure of Haveno. Key word: Decentralization"
 excerpt: Haveno will become more decentralized and a key contributor to Monero development
 author: Haveno Core Team
