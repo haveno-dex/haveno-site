@@ -578,3 +578,15 @@ p.date-post {
   position: relative;
   float: right;
 }
+
+/* 404 */
+
+.fourofour .button {
+  position: relative;
+  width: 10rem;
+  margin-top: 0.5rem;
+}
+
+.fourofour h1, p {
+  text-align: center;
+}
