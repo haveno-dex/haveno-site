@@ -10,7 +10,7 @@ We are happy to announce that it's now possible to run Haveno and test XMR/crypt
 
 Haveno still includes bisq-related sections and wording, but the essential functionalities are there and ready to be tested. Little bugs and glitches are to be expected.
 
-There is still a lot to do, but we feel the platform is now stable enough to allow the public to test the trade protocol.
+There is still a lot to do, but we feel the platform is now stable enough to tag version 0.0.1 and allow the public to test the trade protocol.
 
 For assistance, questions or to just to get in touch with us, join the [#haveno room on Matrix](https://matrix.to/#/#haveno:haveno.network) or the room on IRC/Libera (#haveno-dev).
 
