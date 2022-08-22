@@ -93,6 +93,16 @@ p.text-centered {
   text-align: center;
 }
 
+/* Make an image a circle */
+img.rounded {
+  border-radius: 50%;
+}
+
+.disclaimer {
+  margin-top: 4rem;
+  
+}
+
 .row {
   margin-bottom: 2rem;
 }
@@ -577,6 +587,70 @@ p.date-post {
 .post a.button {
   position: relative;
   float: right;
+}
+
+/* SPONSORS */
+
+.sponsors .feature-box {
+  width: 30rem;
+  height: 30rem;
+  text-align: center;
+}
+
+img.topsponsor {
+  position: relative;
+  max-width: 14rem;
+}
+
+.sponsors .feature-box a.button {
+  position: relative;
+  width: 7rem;
+  margin-top: 1rem;
+}
+
+.contacts-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.contacts-box {
+  width: 3rem;
+  height: 3rem;
+  margin: 0.5rem 0.9rem;
+}
+
+.contacts-box:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.sponsors-container {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+.sponsors-box {
+  width: 8rem;
+  height: 8rem;
+  margin: 0.5rem 0.9rem;
+}
+
+.sponsors-box:hover {
+  transform: scale(1.1);
+  cursor: pointer; 
+}
+
+.sponsors-box img {
+  max-width: 100%;
+  border-radius: 10%;
 }
 
 /* 404 */
