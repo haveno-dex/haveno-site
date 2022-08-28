@@ -627,7 +627,7 @@ img.topsponsor {
   cursor: pointer;
 }
 
-.sponsors-container {
+.benefactors-container {
   margin-bottom: 1rem;
   margin-top: 2rem;
   display: flex;
@@ -637,18 +637,18 @@ img.topsponsor {
 }
 
 
-.sponsors-box {
+.benefactors-box {
   width: 8rem;
   height: 8rem;
   margin: 0.5rem 0.9rem;
 }
 
-.sponsors-box:hover {
+.benefactors-box:hover {
   transform: scale(1.1);
   cursor: pointer; 
 }
 
-.sponsors-box img {
+.benefactors-box img {
   max-width: 100%;
   border-radius: 10%;
 }
