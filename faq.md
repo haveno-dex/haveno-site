@@ -57,7 +57,12 @@ We only support projects that we consider interesting or useful. We will launch 
 | Bitcoin (BTC) | US Dollars (USD) |
 | Ether (ETH) | Euro (EUR) |
 | Bitcoin Cash (BCH) | British Pounds (GBP) |
-| Litecoin (LTC) |
+| Litecoin (LTC) | Brazilian Real (BRL) |
+| | Swiss Franc (CHF) |
+| | Indian Rupee (INR) |
+| | Canadian Dollar (CAD) |
+| | Australian Dollar (AUD) |
+| | Japanese Yen (JPY) |
 
 *Note that all assets are paired with XMR, which is the base currency of the platform (XMR/EUR, XMR/USD, XMR/BTC, etc).*
 
