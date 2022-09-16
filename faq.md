@@ -19,7 +19,6 @@ summary: Frequently asked questions about Haveno
 - [What are arbitrators? Why do you need them?](#what-are-arbitrators-why-do-you-need-them)
 - [What are the fees for trading on Haveno?](#what-are-the-fees-for-trading-on-haveno)
 - [Is Haveno ready? Can we test it?](#is-haveno-ready-can-we-test-it)
-- [Can I already try Haveno?](#can-i-already-try-haveno)
 - [How can I exchange Monero for fiat without involving banks?](#how-can-i-exchange-monero-for-fiat-without-involving-banks)
 
 ## Bisq and Haveno
@@ -114,7 +113,7 @@ We haven't made a final decision on the amount of the Haveno fee, but it will mo
 
 All fees paid on Haveno will be sent to Engine (see [What's the structure of Haveno?](#whats-the-structure-of-haveno)), where they will be used to reward contributors, pay for Haveno development and infrastructure, fund Monero development and research, and more. Fees are also used as an anti-spam mechanism to avoid abuse.
 
-## [Is Haveno ready? Can we try it?](#is-haveno-ready-can-we-test-it)
+## [Is Haveno ready? Can we test it?](#is-haveno-ready-can-we-test-it)
 
 Haveno is still work in progress, but it's already possible to do test trades with other people in our test network using stagenet Monero coins, which hold no value. See [the instructions](https://github.com/haveno-dex/haveno/blob/master/docs/installing.md). You can test with both crypto and fiat currencies.
 
