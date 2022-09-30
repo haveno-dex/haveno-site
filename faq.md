@@ -15,7 +15,6 @@ summary: Frequently asked questions about Haveno
 - [What's the structure of Haveno?](#whats-the-structure-of-haveno)
 - [Will there be KYC?](#will-there-be-kyc)
 - [Where can I find the details on how the platform will work?](#where-can-i-find-details-on-how-the-platform-will-work)
-- [Do you have more docs?](#do-you-have-more-docs)
 - [What are arbitrators? Why do you need them?](#what-are-arbitrators-why-do-you-need-them)
 - [What are the fees for trading on Haveno?](#what-are-the-fees-for-trading-on-haveno)
 - [Is Haveno ready? Can we test it?](#is-haveno-ready-can-we-test-it)
@@ -49,37 +48,19 @@ We hope Haveno will be ready to be deployed by the end of 2022.
 
 ## [What currencies will be listed?](#what-currencies-will-be-listed)
 
-We only support projects that we consider interesting or useful. We will launch with support for:
+See the list of supported assets and payment methods in the documentation:
 
-| Crypto | Fiat |
-|---|---|
-| Bitcoin (BTC) | US Dollars (USD) |
-| Ether (ETH) | Euro (EUR) |
-| Bitcoin Cash (BCH) | British Pounds (GBP) |
-| Litecoin (LTC) | Brazilian Real (BRL) |
-| | Swiss Franc (CHF) |
-| | Indian Rupee (INR) |
-| | Canadian Dollar (CAD) |
-| | Australian Dollar (AUD) |
-| | Japanese Yen (JPY) |
-
-*Note that all assets are paired with XMR, which is the base currency of the platform (XMR/EUR, XMR/USD, XMR/BTC, etc).*
+<a class="button large" href="https://docs.haveno.exchange/the-project/assets/">Go to the Docs</a>
 
 As soon as we feel the platform is solid enough, we will add support for more crypto and fiat currencies, initially targeting some of the assets already listed on Bisq. The community can suggest assets by [opening an issue on the 'listing' repository](https://github.com/haveno-dex/listing) and using the correct template.
 
 ## [What's the structure of Haveno?](#whats-the-structure-of-haveno)
 
-We explained the structure of Haveno in detail in a [dedicated blog post]({{ site.baseurl }}/2022/02/02/haveno-structure.html). Here's a summary:
+The goal is to provide a secure and censorship resistent decentralized exchange platform. With that in mind, we created a compartmentalized structure, where the Haveno core team doesn't run the platform, but only works on the code and expansion of Haveno. Another entity unrelated to the Haveno core team (the publishers), takes the responsibility of release the Haveno software, while a third independent entity composed of volunteers will receive and administer the fees paid on the platform.
 
-- Half of the fees paid on Haveno will be used to advance Monero and Haveno development
+This unique structure makes Haveno strongly private and censorship resistant. See the docs for the details:
 
-- There will be a CCS-like entity called Engine, which will decide which projects/individuals to sponsor using the fees sent by Haveno
-
-- Engine will be administrated by a council (Engine Council) consisting of 5 trusted members from the Monero and Haveno developer community (including one Monero Core Team member)
-
-Thanks to the funds that will be sent to Engine, Haveno will be a major contributor to Monero development, allowing Monero to cease its reliance on generous donors and become self-sustaining.
-
-While this structure is exciting and opens a lot of doors, we want Haveno to be as decentralized and robust as possible. That's why we will always look for ways to decentralize things further.
+<a class="button large" href="https://docs.haveno.exchange/the-project/overview/">Go to the Docs</a>
 
 ## [Will there be KYC?](#will-there-be-kyc)
 
@@ -87,11 +68,9 @@ No. Haveno was created out of the desire to provide people a peer to peer and de
 
 ## [Where can I find details on how the platform will work?](#where-can-i-find-details-on-how-the-platform-will-work)
 
-Haveno's trade protocol is [explained in detail on Github](https://github.com/haveno-dex/haveno/blob/master/docs/trade_protocol/trade-protocol.md).
+The trade protocol is explained in detail on the docs platform:
 
-## [Do you have more docs?](#do-you-have-more-docs)
-
-Our documentation can be found [in our GitHub Repository](https://github.com/haveno-dex/haveno/tree/master/docs). It contains protcol details, contributing guides, installation instructions, and more.
+<a class="button large" href="https://docs.haveno.exchange/the-project/trade-protocol/">Go to the Docs</a>
 
 ## [What are arbitrators? Why do you need them?](#what-are-arbitrators-why-do-you-need-them)
 
@@ -105,6 +84,10 @@ Holding one of the three keys makes them a sensitive role, because they could th
 
 - Arbitrators will be trusted members of the Haveno and Monero community, and they will be appointed by the Engine Council in collaboration with the aforementioned community.
 
+See the full details of the arbitrator role:
+
+<a class="button large" href="https://docs.haveno.exchange/the-project/roles/arbitrators/">Go to the Docs</a>
+
 ## [What are the fees for trading on Haveno?](#what-are-the-fees-for-trading-on-haveno)
 
 Haveno traders will pay two fees. The fee for transacting on the Monero network (a fraction of a cent) and the Haveno fee.
@@ -115,7 +98,7 @@ All fees paid on Haveno will be sent to Engine (see [What's the structure of Hav
 
 ## [Is Haveno ready? Can we test it?](#is-haveno-ready-can-we-test-it)
 
-Haveno is still work in progress, but it's already possible to do test trades with other people in our test network using stagenet Monero coins, which hold no value. See [the instructions](https://github.com/haveno-dex/haveno/blob/master/docs/installing.md). You can test with both crypto and fiat currencies.
+Haveno is still work in progress, but it's already possible to do test trades with other people in our test network using stagenet Monero coins, which hold no value. See [the instructions](https://docs.haveno.exchange/development/installing/). You can test with both crypto and fiat currencies.
 
 ## [How can I exchange Monero for fiat without involving banks?](#how-can-i-exchange-monero-for-fiat-without-involving-banks)
 
@@ -167,8 +150,6 @@ Haveno will be faster because of three main factors:
 
 ## [What are the differences in the trade protocol?](#what-are-the-differences-in-the-trade-protocol)
 
-The current trade protocol of Haveno is on Github: [docs/trade-protocol.md](https://github.com/haveno-dex/haveno/blob/master/docs/trade_protocol/trade-protocol.md)
-
 Bisq recently adopted a protocol based on 2/2 multisig, while Haveno will use their previous protocol: 2/3 multisignature. In a 2/3 multisignature trade, each trader owns one key; this key will be paired with the key of the other trader and will be used to unlock funds and deposits. It's a 2 of 3 (2/3) protocol because you need only two out of three keys to move funds from the multisignature wallet.
 
 If everything goes fine, the two traders will use their keys to complete the transfer process. If something goes wrong, one of the two parties won't use their key to complete the transaction, and this is where the arbitrator comes to action.
@@ -181,6 +162,10 @@ Using arbitrators has drawbacks:
 - Arbitrators could be hacked and their key stolen
 
 These issues are solved by employing a small number of trusted arbitrators with strong operational security knowledge that will serve in their roles anonymously.
+
+Haveno's full trade protocol is detailed in the docs:
+
+<a class="button large" href="https://docs.haveno.exchange/the-project/trade-protocol/">Go to the Docs</a>
 
 ## [Will there be an Haveno token like Bisq has BSQ?](#will-there-be-an-haveno-token-like-bisq-has-bsq)
 

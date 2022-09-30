@@ -215,7 +215,7 @@ a.button:active {
   opacity: 50%;
 }
 
-a.button.faq {
+a.button.large {
   position: relative;
   width: 15rem;
   margin-top: 1rem;

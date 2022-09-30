@@ -6,7 +6,7 @@ excerpt: It's now possible to make test trades on Haveno's test network with oth
 author: Haveno Core Team
 ---
 
-We are happy to announce that it's now possible to run Haveno and test XMR/crypto and XMR/fiat trades with other users in the network by using Monero's stagenet and the legacy user interface. [Follow the instructions](https://github.com/haveno-dex/haveno/blob/master/docs/installing.md) and please let us know if you encounter any issue. This is a test network, do not use real money!
+We are happy to announce that it's now possible to run Haveno and test XMR/crypto and XMR/fiat trades with other users in the network by using Monero's stagenet and the legacy user interface. [Follow the instructions](https://docs.haveno.exchange/development/installing/) and please let us know if you encounter any issue. This is a test network, do not use real money!
 
 Haveno still includes bisq-related sections and wording, but the essential functionalities are there and ready to be tested. Little bugs and glitches are to be expected.
 
@@ -16,7 +16,7 @@ For assistance, questions or to just to get in touch with us, join the [#haveno 
 
 ---
 
-Unsure of how Haveno works? Check out the [trade protocol](https://github.com/haveno-dex/haveno/blob/master/docs/trade_protocol/trade-protocol.md).
+Unsure of how Haveno works? Check out the [trade protocol](https://docs.haveno.exchange/the-project/trade-protocol/).
 
 Have more questions? Take a look at the [FAQ](https://haveno.exchange/faq/).
 
