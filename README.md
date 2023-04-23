@@ -1,4 +1,4 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/88372b69b62341ebb053e5bdaf791b13)](https://app.codacy.com/gh/haveno-dex/haveno-site/)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/cc54afb990cc4047816a1c14b1d522fa)](https://app.codacy.com/gh/haveno-dex/haveno-site/dashboard)
 
 # Haveno Website
 
