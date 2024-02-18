@@ -6,9 +6,9 @@ excerpt: Register to vote for the Haveno Council seats.
 author: Haveno Core Team
 ---
 
-Hello all, this is information on registering to vote for Haveno Council's 3rd (possible 4th and 5th) seats.
+Hello all, this is information on registering to vote for Haveno Council's 3rd (possibly 4th and 5th seats) seats.
 
-Currently requirements to register to vote is a working email and a well known online screen name from one of the given services in the form.
+Current requirements to register to vote are a working email and a known online screen name from one of the given services in the form.
 
 The polls will take place using the CIVS ([https://civs1.civs.us/](https://civs1.civs.us/)) voting software, and will take place in two parts.
 
@@ -16,11 +16,13 @@ There will be a Primary election with a write-in, then the top 5 ranked candidat
 
 Emails will be sent out from the CIVS platform once the polls have started.
 
-Voter registration is open now, and will be closed at [TBD].
+(Times listed in EST)
 
-Primary election will start on [TBD] and end on [TBD].
+Voter registration is open now, and will be closed on 02/20 (Tuesday) at 3PM.
 
-General election will start on [TBD] and end on [TBD].
+Primary election will start on 02/20 at 3PM, and end on 02/21 at 3PM.
+
+General election will start on 02/21 at 3PM and end on 02/22 at 3PM.
 
 
 ### Instructions below:
@@ -37,8 +39,6 @@ Vote by ranking the choices (1 is best).
 Save your receipt if you want the option to edit your vote!
 
 ### Important notes:
-
-Your vote will not be made public, but we may keep a record of the vote for audit purposes.
 
 Aggregate voting results will be made public.
 
