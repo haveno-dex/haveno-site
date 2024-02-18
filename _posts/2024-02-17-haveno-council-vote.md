@@ -16,13 +16,13 @@ There will be a Primary election with a write-in, then the top 5 ranked candidat
 
 Emails will be sent out from the CIVS platform once the polls have started.
 
-(Times listed in EST)
+(Times listed in UTC)
 
-Voter registration is open now, and will be closed on 02/20 (Tuesday) at 3PM.
+Voter registration is open now, and will be closed on 2024-02-20 (Tuesday) at 20:00.
 
-Primary election will start on 02/20 at 3PM, and end on 02/21 at 3PM.
+Primary election will start on 2024-02-20 at 20:00, and end on 2024-02-21 at 20:00.
 
-General election will start on 02/21 at 3PM and end on 02/22 at 3PM.
+General election will start on 2024-02-21 at 20:00 and end on 2024-02-22 at 20:00.
 
 
 ### Instructions below:
