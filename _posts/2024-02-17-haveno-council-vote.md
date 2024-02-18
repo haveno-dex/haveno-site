@@ -27,7 +27,7 @@ General election will start on 02/21 at 3PM and end on 02/22 at 3PM.
 
 ### Instructions below:
 
-Register to vote using this form: [https://vote.haveno.exchange/index.php/437359](https://vote.haveno.exchange/index.php/437359)
+Register to vote using this form: [https://vote.haveno.exchange/form/GVkRjB](https://vote.haveno.exchange/form/GVkRjB)
 Activate your email on CIVS. This will save you an email from us.
 
 Confirm you can receive emails from CIVS (civs@cornell.edu) and Haveno (info@haveno.exchange) to make sure that they aren’t going to spam.
