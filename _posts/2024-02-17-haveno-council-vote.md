@@ -6,7 +6,7 @@ excerpt: Register to vote for the Haveno Council seats.
 author: Haveno Core Team
 ---
 
-Hello all, this is information on registering to vote for Haveno Council's 3rd (possibly 4th and 5th seats) seats.
+Hello all, this is information on registering to vote for Haveno Council's 3rd (possibly 4th and 5th) seats.
 
 Current requirements to register to vote are a working email and a known online screen name from one of the given services in the form.
 
