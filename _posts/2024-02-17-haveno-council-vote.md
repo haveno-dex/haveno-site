@@ -22,7 +22,7 @@ Voter registration is open now, and will be closed on 2024-02-20 (Tuesday) at 20
 
 Primary election will start on 2024-02-20 at 20:00, and end on 2024-02-21 at 20:00.
 
-General election will start on 2024-02-21 at 20:00 and end on 2024-02-22 at 20:00.
+~~General election will start on 2024-02-21 at 20:00 and end on 2024-02-22 at 20:00.~~ DELAYED until we receive confirmation from candidates!
 
 
 ### Instructions below:
