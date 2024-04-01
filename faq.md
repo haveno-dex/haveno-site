@@ -45,7 +45,7 @@ Hyphenation: ha‧ve‧no
 
 ## [When will Haveno be ready for use?](#when-will-haveno-be-ready-for-use)
 
-We hope Haveno will be ready to be deployed by the end of 2022.
+We hope Haveno will be ready to be deployed in 2024.
 
 ## [What currencies will be listed?](#what-currencies-will-be-listed)
 
