@@ -45,8 +45,4 @@ In case you missed why Haveno is so important:
 
 - Haveno [is funding](https://github.com/haveno-dex/haveno/issues?q=is%3Aissue+label%3Aa%3Amonero) important **improvements to Monero**, including fixes and improvements to the multisignature protocol.
 
-- The revenue of Haveno will be **sent to Engine**, which will be managed by an autonomous entity, the Engine Council. See the [detailed blog post]({{ site.baseurl }}/2022/02/02/haveno-structure.html)
-
-- People will be able to open **Engine Proposals**. Basically asking funds for working on Haveno/Monero or to fund related development work
-
 For common questions and answers about Haveno, see [our FAQ page]({{ site.baseurl}}/faq/).
