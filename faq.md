@@ -45,11 +45,11 @@ Hyphenation: ha‧ve‧no
 
 ## [When will Haveno be ready for use?](#when-will-haveno-be-ready-for-use)
 
-We hope Haveno will be ready to be deployed in 2024.
+We hope Haveno will be ready for use by the end of 2024.
 
 ## [What currencies will be listed?](#what-currencies-will-be-listed)
 
-We only support projects that we consider interesting or useful. We will launch with support for:
+We only support projects that we consider interesting or useful. We will release with support for at least:
 
 | Crypto | Fiat |
 |---|---|
@@ -69,17 +69,11 @@ As soon as we feel the platform is solid enough, we will add support for more cr
 
 ## [What's the structure of Haveno?](#whats-the-structure-of-haveno)
 
-We explained the structure of Haveno in detail in a [dedicated blog post]({{ site.baseurl }}/2022/02/02/haveno-structure.html). Here's a summary:
+The structure and configuration of a Haveno network can be customized when deploying a network instance.
 
-- Half of the fees paid on Haveno will be used to advance Monero and Haveno development
+The Haveno project is an open source platform for public reference. We do not operate a live network instance for Monero's main network, but you can test Haveno with Monero's stagenet by following [these instructions](https://github.com/haveno-dex/haveno/blob/master/docs/installing.md).
 
-- There will be a CCS-like entity called Engine, which will decide which projects/individuals to sponsor using the fees sent by Haveno
 
-- Engine will be administrated by a council (Engine Council) consisting of 5 trusted members from the Monero and Haveno developer community (including one Monero Core Team member)
-
-Thanks to the funds that will be sent to Engine, Haveno will be a major contributor to Monero development, allowing Monero to cease its reliance on generous donors and become self-sustaining.
-
-While this structure is exciting and opens a lot of doors, we want Haveno to be as decentralized and robust as possible. That's why we will always look for ways to decentralize things further.
 
 ## [Will there be KYC?](#will-there-be-kyc)
 
@@ -95,23 +89,17 @@ Our documentation can be found [in our GitHub Repository](https://github.com/hav
 
 ## [What are arbitrators? Why do you need them?](#what-are-arbitrators-why-do-you-need-them)
 
-Arbitrators are the last step of conflict resolution on Haveno, coming after traders attempt to settle disputes by themselves using the chat embedded in the platform, and we inherit them from Bisq. They have a crucial role in the trade process, because they hold one of the three keys during a trade.
+Arbitrators are the last step of conflict resolution on Haveno, coming after traders attempt to settle disputes by themselves using the chat embedded in the platform.
 
-Holding one of the three keys makes them a sensitive role, because they could theoretically collude with one of the 2 traders. We are exploring the possibility of [migrating to a 2/2 multisig protocol instead of 2/3](https://github.com/haveno-dex/haveno-meta/issues/14), but for the time being, we will adopt several measures to drastically reduce the risks for traders:
+In case the traders are unable to complete the trade normally, the arbitrator may return funds to the traders based on the circumstances.
 
-- Arbitrators will be picked up randomly from the pool of available arbitrators. This reduces drastically the possibility of collusion, because traders have no possibility of choosing an arbitrator.
-
-- Arbitrators will probably set bonds. These bonds will be locked in the [Engine platform](#whats-the-structure-of-haveno) and will be used to cover the loss of the victim in case of a malicious arbitrator.
-
-- Arbitrators will be trusted members of the Haveno and Monero community, and they will be appointed by the Engine Council in collaboration with the aforementioned community.
+Arbitrators never have custody of trade funds, because they hold only one of three keys during the trade.
 
 ## [What are the fees for trading on Haveno?](#what-are-the-fees-for-trading-on-haveno)
 
-Haveno traders will pay two fees. The fee for transacting on the Monero network (a fraction of a cent) and the Haveno fee.
+By default, Haveno traders pay two fees. The fee for transacting on the Monero network (a fraction of a cent) and a small trading fee.
 
-We haven't made a final decision on the amount of the Haveno fee, but it will most likely be less than 1% of the traded amount.
-
-All fees paid on Haveno will be sent to Engine (see [What's the structure of Haveno?](#whats-the-structure-of-haveno)), where they will be used to reward contributors, pay for Haveno development and infrastructure, fund Monero development and research, and more. Fees are also used as an anti-spam mechanism to avoid abuse.
+The trading fee is configurable when deploying a Haveno network.
 
 ## [Is Haveno ready? Can we test it?](#is-haveno-ready-can-we-test-it)
 
