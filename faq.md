@@ -45,7 +45,9 @@ Hyphenation: ha‧ve‧no
 
 ## [When will Haveno be ready for use?](#when-will-haveno-be-ready-for-use)
 
-We hope Haveno will be ready for use by the end of 2024.
+Haveno can be used now on Monero's main network by using a third party Haveno network.
+
+We do not officially endorse any networks at this time, but they can be found online.
 
 ## [What currencies will be listed?](#what-currencies-will-be-listed)
 
@@ -72,8 +74,6 @@ As soon as we feel the platform is solid enough, we will add support for more cr
 The structure and configuration of a Haveno network can be customized when deploying a network instance.
 
 The Haveno project is an open source platform for public reference. We do not operate a live network instance for Monero's main network, but you can test Haveno with Monero's stagenet by following [these instructions](https://github.com/haveno-dex/haveno/blob/master/docs/installing.md).
-
-
 
 ## [Will there be KYC?](#will-there-be-kyc)
 
@@ -168,7 +168,7 @@ Using arbitrators has drawbacks:
 - The arbitrator owns a key, so they could potentially collude with a trader and use their key to send arbitrary transactions
 - Arbitrators could be hacked and their key stolen
 
-These issues are solved by employing a small number of trusted arbitrators with strong operational security knowledge that will serve in their roles anonymously.
+These issues can be solved by employing a small number of bonded arbitrators with strong operational security knowledge that will serve in their roles anonymously.
 
 ## [Will there be an Haveno token like Bisq has BSQ?](#will-there-be-an-haveno-token-like-bisq-has-bsq)
 
