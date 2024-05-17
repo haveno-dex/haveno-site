@@ -184,8 +184,6 @@ Bisq's DAO has several important flaws that make its effectiveness as a tool for
 
 - Bisq itself acknowledges that not everything can be managed by the DAO in its current state. For example, changes to the DAO itself still require the approval of Manfred (the creator of the DAO). This is an odd approach outside of the DAO governance system.
 
-- Arbitrators are trusted entities that need to gain the trust of the creator of Bisq, who [declared he will not give keys to people he doesn't know or trust](https://github.com/bisq-network/proposals/issues/52#issuecomment-433489213). This is factually bypassing the DAO and centralizes the choice of the arbitrators on one person.
-
 - The DAO as used by Bisq, is heavily based on GitHub, which is a centralized entity that has the power to shut down repositories at will. If that would ever happen, Bisq's governance structure will be effectively frozen until the structure is migrated somewhere else and the Bisq app will be adapted. Such migration would take a lot of time and effort.
 
 - There seems to be no expiring date for roles or maximum amount of roles that a contributor can cover. As a result, long term Bisq contributors (who already cover multiple roles) will always gain more BSQ than a newcomer, and unless they decide on their own to leave some roles, there is no way for a new contributor to have as much voting power as a veteran Bisq contributor. The new contributor could make large contributions that would earn them a huge amount of BSQ, but even in that case the release of BSQ is voted on with the mechanism we mentioned earlier, so veteran Bisq contributors (with more voting power) could vote against releasing rewards to the newcomer if they feel their power threatened.
