@@ -85,7 +85,7 @@ Haveno's trade protocol is [explained in detail on Github](https://github.com/ha
 
 ## [Do you have more docs?](#do-you-have-more-docs)
 
-Our documentation can be found [in our GitHub Repository](https://github.com/haveno-dex/haveno/tree/master/docs). It contains protcol details, contributing guides, installation instructions, and more.
+Our documentation can be found [in our GitHub Repository](https://github.com/haveno-dex/haveno/tree/master/docs). It contains protocol details, contributing guides, installation instructions, and more.
 
 ## [What are arbitrators? Why do you need them?](#what-are-arbitrators-why-do-you-need-them)
 
