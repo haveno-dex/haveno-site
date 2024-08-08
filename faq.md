@@ -47,7 +47,7 @@ Hyphenation: ha‧ve‧no
 
 Haveno can be used now on Monero's main network by using a third party Haveno network.
 
-We do not officially endorse any networks at this time, but they can be found online.
+We do not officially endorse any networks at this time.
 
 ## [What currencies will be listed?](#what-currencies-will-be-listed)
 
@@ -161,14 +161,9 @@ Bisq recently adopted a protocol based on 2/2 multisig, while Haveno will use th
 
 If everything goes fine, the two traders will use their keys to complete the transfer process. If something goes wrong, one of the two parties won't use their key to complete the transaction, and this is where the arbitrator comes to action.
 
-Arbitrators are inherited from Bisq's 2/3 protocol. They are a trusted role and have the duty of releasing the funds to one of the two parties in case of a conflict. To do so, they use the third key of the 2/3 multisig protocol.
+Arbitrators are inherited from Bisq's 2/3 protocol. They have the duty of releasing the funds to one of the two parties in case of a conflict. To do so, they use the third key of the 2/3 multisig protocol.
 
-Using arbitrators has drawbacks:
-
-- The arbitrator owns a key, so they could potentially collude with a trader and use their key to send arbitrary transactions
-- Arbitrators could be hacked and their key stolen
-
-These issues can be solved by employing a small number of bonded arbitrators with strong operational security knowledge that will serve in their roles anonymously.
+For extra security, arbitrators can be a bonded role to act in the interest of traders.
 
 ## [Will there be an Haveno token like Bisq has BSQ?](#will-there-be-an-haveno-token-like-bisq-has-bsq)
 
