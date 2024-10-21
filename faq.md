@@ -49,25 +49,20 @@ Haveno can be used now on Monero's main network by using a third party Haveno ne
 
 We do not officially endorse any networks at this time.
 
-## [What currencies will be listed?](#what-currencies-will-be-listed)
+## [What assets will be listed?](#what-assets-will-be-listed)
 
-We only support projects that we consider interesting or useful. We will release with support for at least:
+We only support assets that we consider interesting or useful. Currently we support:
 
-| Crypto | Fiat |
-|---|---|
-| Bitcoin (BTC) | US Dollars (USD) |
-| Ether (ETH) | Euro (EUR) |
-| Bitcoin Cash (BCH) | British Pounds (GBP) |
-| Litecoin (LTC) | Brazilian Real (BRL) |
-| | Swiss Franc (CHF) |
-| | Indian Rupee (INR) |
-| | Canadian Dollar (CAD) |
-| | Australian Dollar (AUD) |
-| | Japanese Yen (JPY) |
+| Fiat | Crypto | Precious Metals |
+|---|---|---|
+| All fiat currencies | Bitcoin (BTC) | Gold (XAU) |
+| | Bitcoin Cash (BCH) | Silver (XAG) |
+| | Ether (ETH) | Goldback (XGB) |
+| | Litecoin (LTC) | |
 
 *Note that all assets are paired with XMR, which is the base currency of the platform (XMR/EUR, XMR/USD, XMR/BTC, etc).*
 
-As soon as we feel the platform is solid enough, we will add support for more crypto and fiat currencies, initially targeting some of the assets already listed on Bisq. The community can suggest assets by [opening an issue on the 'listing' repository](https://github.com/haveno-dex/listing) and using the correct template.
+The community can suggest assets by [opening an issue on the 'listing' repository](https://github.com/haveno-dex/listing) and using the correct template.
 
 ## [What's the structure of Haveno?](#whats-the-structure-of-haveno)
 
