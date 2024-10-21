@@ -11,7 +11,7 @@ summary: Frequently asked questions about Haveno
 
 - [What's the meaning of Haveno?](#whats-the-meaning-of-haveno)
 - [When will Haveno be ready for use?](#when-will-haveno-be-ready-for-use)
-- [What assets will be listed?](#what-assets-will-be-listed)
+- [What assets are listed?](#what-assets-are-listed)
 - [What's the structure of Haveno?](#whats-the-structure-of-haveno)
 - [Will there be KYC?](#will-there-be-kyc)
 - [Where can I find the details on how the platform will work?](#where-can-i-find-details-on-how-the-platform-will-work)
@@ -49,7 +49,7 @@ Haveno can be used now on Monero's main network by using a third party Haveno ne
 
 We do not officially endorse any networks at this time.
 
-## [What assets will be listed?](#what-assets-will-be-listed)
+## [What assets are listed?](#what-assets-are-listed)
 
 We only support assets that we consider interesting or useful. Currently we support:
 
