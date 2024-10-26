@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /blog/:title/
-title: Haveno can be used on mainnet!
+title: Haveno is ready for mainnet!
 excerpt: Haveno is ready for mainnet using third party networks
 author: woodser
 ---
