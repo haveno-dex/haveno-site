@@ -2,7 +2,7 @@
 layout: post
 permalink: /blog/:title/
 title: Haveno is ready for mainnet!
-excerpt: Haveno is ready for mainnet using third party networks
+excerpt: Haveno is ready to be used on Monero's main network by using third party installers and networks
 author: woodser
 ---
 
