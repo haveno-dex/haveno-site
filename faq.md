@@ -10,7 +10,8 @@ summary: Frequently asked questions about Haveno
 ## General
 
 - [What's the meaning of Haveno?](#whats-the-meaning-of-haveno)
-- [When will Haveno be ready for use?](#when-will-haveno-be-ready-for-use)
+- [Is Haveno ready for mainnet?](#is-haveno-ready-for-mainnet)
+- [How can I run Haveno?](#how-can-i-run-haveno)
 - [What assets are listed?](#what-assets-are-listed)
 - [What's the structure of Haveno?](#whats-the-structure-of-haveno)
 - [Will there be KYC?](#will-there-be-kyc)
@@ -43,11 +44,17 @@ Pronunciation:
 PA(key): /haˈveno/
 Hyphenation: ha‧ve‧no
 
-## [When will Haveno be ready for use?](#when-will-haveno-be-ready-for-use)
+## [Is Haveno ready for mainnet?](#is-haveno-ready-for-mainnet)
 
-Haveno can be used now on Monero's main network by using a third party Haveno network.
+Yes, Haveno is considered mature enough to use on Monero's main network (mainnet). See our [blog post](https://haveno.exchange/blog/ready-for-mainnet/).
 
-We do not officially endorse any networks at this time.
+## [How can I run Haveno?](#how-can-i-run-haveno)
+
+Haveno can be installed on Linux, macOS, and Windows by using a third party installer and network. We do not endorse any networks at this time.
+
+A test network is also available for users to make test trades using Monero's stagenet. See the [instructions](https://github.com/haveno-dex/haveno/blob/master/docs/installing.md) to build Haveno and connect to the network.
+
+Alternatively, you can [start your own network](https://github.com/haveno-dex/haveno/blob/master/docs/create-mainnet.md).
 
 ## [What assets are listed?](#what-assets-are-listed)
 
@@ -66,9 +73,7 @@ The community can suggest assets by [opening an issue on the 'listing' repositor
 
 ## [What's the structure of Haveno?](#whats-the-structure-of-haveno)
 
-The structure and configuration of a Haveno network can be customized when deploying a network instance.
-
-The Haveno project is an open source platform for public reference. We do not operate a live network instance for Monero's main network, but you can test Haveno with Monero's stagenet by following [these instructions](https://github.com/haveno-dex/haveno/blob/master/docs/installing.md).
+The Haveno project is an open source platform for public reference. We do not operate or endorse any network instance for Monero's main network (mainnet), but you can test Haveno with Monero's stagenet by following [these instructions](https://github.com/haveno-dex/haveno/blob/master/docs/installing.md).
 
 ## [Will there be KYC?](#will-there-be-kyc)
 
@@ -95,10 +100,6 @@ Arbitrators never have custody of trade funds, because they hold only one of thr
 By default, Haveno traders pay two fees. The fee for transacting on the Monero network (a fraction of a cent) and a small trading fee.
 
 The trading fee is configurable when deploying a Haveno network.
-
-## [Is Haveno ready? Can we test it?](#is-haveno-ready-can-we-test-it)
-
-Haveno is still work in progress, but it's already possible to do test trades with other people in our test network using stagenet Monero coins, which hold no value. See [the instructions](https://github.com/haveno-dex/haveno/blob/master/docs/installing.md). You can test with both crypto and fiat currencies.
 
 ## [How can I exchange Monero for fiat without involving banks?](#how-can-i-exchange-monero-for-fiat-without-involving-banks)
 
