@@ -126,7 +126,7 @@ Bisq doesn't offer strong privacy to its users and has had multiple issues which
 - As a result of the points above: there have been reports of Bisq users seeing [their accounts on centralized exchanges frozen](https://bisq.community/t/dirty-btc-coins-on-the-xmr-market/7798) after they sent BTC from Bisq to the account on the exchange. This means exchanges actively flag coins coming from Bisq as risky.
 - The BSQ token is a huge privacy concern: when used to pay transaction fees on Bisq, it makes possible to link a transaction with a specific Bisq user.
 - A [recent paper](https://arxiv.org/pdf/2007.07048.pdf) demonstrated that it's possible to track Bisq contributors participating in Bisq's DAO and deanonymize them.
-- Bisq's [trade history is public](https://bisq.network/markets/) and it's posted with details such as dates and traded amounts.
+- Bisq's [trade history is public](https://bisq.network/markets/) and is posted with details such as unrandomized dates and traded amounts, whereas historical trade dates and amounts are randomized in Haveno.
 - [We found and disclosed a vulnerability in Bisq]({{ site.baseurl }}/2021/07/07/bisq-vulnerability.html), which until its discovery had allowed malicious actors to harvest payment info like bank accounts, names and potentially home addresses of Bisq users.
 
 From the points above we can see how trading on Bisq is not private and could result in the deanonymization of traders and contributors. Haveno has no token- it's based on Monero and has privacy as a core principle.
