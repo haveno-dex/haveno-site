@@ -66,6 +66,7 @@ We only support assets that we consider interesting or useful. Currently we supp
 | | Bitcoin Cash (BCH) | Silver (XAG) |
 | | Ether (ETH) | Goldback (XGB) |
 | | Litecoin (LTC) | |
+| | Tether USD (USDT) | |
 
 *Note that all assets are paired with XMR, which is the base currency of the platform (XMR/EUR, XMR/USD, XMR/BTC, etc).*
 
