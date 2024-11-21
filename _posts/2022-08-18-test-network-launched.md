@@ -12,7 +12,7 @@ Haveno still includes bisq-related sections and wording, but the essential funct
 
 There is still a lot to do, but we feel the platform is now stable enough to tag version 0.0.1 and allow the public to test the trade protocol.
 
-For assistance, questions or to just to get in touch with us, join the [#haveno room on Matrix](https://matrix.to/#/#haveno:haveno.network) or the room on IRC/Libera (#haveno-dev).
+For assistance, questions or to just to get in touch with us, join the [#haveno room on Matrix](https://matrix.to/#/#haveno:monero.social) or the room on IRC/Libera (#haveno-development).
 
 ---
 

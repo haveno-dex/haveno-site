@@ -13,6 +13,6 @@ As soon as the CCS got funded we got things in motion. We already had a meeting 
 
 We received the first milestone of our CCS (151 XMR). The way we use these funds will be tracked on a dedicated file on the *haveno-meta* repository: [monero-ccs.md](https://github.com/haveno-dex/haveno-meta/blob/master/monero-ccs.md). We suggest to 'watch' the repository, as it will make easier to keep track of changes to the file.
 
-**Stay updated and contribute** to the development of the user interface! The team will be available for interacting with the community on our development room on matrix: [#haveno-dev:haveno.network](https://matrix.to/#/#haveno-dev:haveno.network) (*#haveno-dev* on IRC/Libera).
+**Stay updated and contribute** to the development of the user interface! The team will be available for interacting with the community on our development room on matrix: [#haveno-development:monero.social](https://matrix.to/#/#haveno-development:monero.social) (*#haveno-development* on IRC/Libera).
 
 If you have questions or you would simply like to help us make Haveno real, come join us!
