@@ -13,6 +13,7 @@ summary: Frequently asked questions about Haveno
 - [Is Haveno ready for mainnet?](#is-haveno-ready-for-mainnet)
 - [How can I run Haveno?](#how-can-i-run-haveno)
 - [What assets are listed?](#what-assets-are-listed)
+- [Do I need to own Monero (XMR) to buy XMR on Haveno?](#do-i-need-to-own-monero-xmr-to-buy-xmr-on-haveno)
 - [What's the structure of Haveno?](#whats-the-structure-of-haveno)
 - [Will there be KYC?](#will-there-be-kyc)
 - [Where can I find the details on how the platform works?](#where-can-i-find-details-on-how-the-platform-works)
@@ -74,6 +75,15 @@ For more info, check the [assets docs](https://docs.haveno.exchange/the-project/
 *Note that all assets are paired with XMR, which is the base currency of the platform (XMR/EUR, XMR/USD, XMR/BTC, etc).*
 
 The community can suggest assets by [opening an issue on the 'listing' repository](https://github.com/haveno-dex/listing) and using the correct template.
+
+## [Do I need to own Monero (XMR) to buy XMR on Haveno?](#do-i-need-to-own-monero-xmr-to-buy-xmr-on-haveno)
+
+
+For newbies who want to buy their first XMR and do not yet have XMR for security deposit, Haveno allows selling no-deposit offers limited up to 1.5 XMR.
+
+Those offers are passphrase protected for avoiding regular risks of no-deposit trading (scams, walking away & more activities that can't be financially penalized without a deposit). So a seller must take care when offering this solution.
+
+You can learn more on [No-deposit offers docs page](https://docs.haveno.exchange/haveno-ui/no_deposit/).
 
 ## [What's the structure of Haveno?](#whats-the-structure-of-haveno)
 
