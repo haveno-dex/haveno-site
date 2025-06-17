@@ -13,13 +13,13 @@ summary: Frequently asked questions about Haveno
 - [Is Haveno ready for mainnet?](#is-haveno-ready-for-mainnet)
 - [How can I run Haveno?](#how-can-i-run-haveno)
 - [What assets are listed?](#what-assets-are-listed)
+- [Do I need to own Monero (XMR) to buy XMR on Haveno?](#do-i-need-to-own-monero-xmr-to-buy-xmr-on-haveno)
 - [What's the structure of Haveno?](#whats-the-structure-of-haveno)
 - [Will there be KYC?](#will-there-be-kyc)
-- [Where can I find the details on how the platform will work?](#where-can-i-find-details-on-how-the-platform-will-work)
+- [Where can I find details on how the platform works?](#where-can-i-find-details-on-how-the-platform-works)
 - [Do you have more docs?](#do-you-have-more-docs)
 - [What are arbitrators? Why do you need them?](#what-are-arbitrators-why-do-you-need-them)
 - [What are the fees for trading on Haveno?](#what-are-the-fees-for-trading-on-haveno)
-- [Is Haveno ready? Can we test it?](#is-haveno-ready-can-we-test-it)
 - [How can I exchange Monero for fiat without involving banks?](#how-can-i-exchange-monero-for-fiat-without-involving-banks)
 
 ## Bisq and Haveno
@@ -67,10 +67,22 @@ We only support assets that we consider interesting or useful. Currently we supp
 | | Ether (ETH) | Goldback (XGB) |
 | | Litecoin (LTC) | |
 | | Tether USD (USDT) | |
+| | USD Coin (USDC) | |
+| | Dai Stablecoin (DAI) | |
+
+For more info, check the [assets docs](https://docs.haveno.exchange/the-project/assets).
 
 *Note that all assets are paired with XMR, which is the base currency of the platform (XMR/EUR, XMR/USD, XMR/BTC, etc).*
 
 The community can suggest assets by [opening an issue on the 'listing' repository](https://github.com/haveno-dex/listing) and using the correct template.
+
+## [Do I need to own Monero (XMR) to buy XMR on Haveno?](#do-i-need-to-own-monero-xmr-to-buy-xmr-on-haveno)
+
+If you want to buy your first XMR and do not yet have any XMR for the security deposit, Haveno allows you to buy XMR without a security deposit, up to 1.5 XMR.
+
+These "no deposit" offers are passphrase protected, to avoid regular risks of no-deposit trading (e.g. scams, walking away, and more activities which can't be financially penalized without a deposit). So sellers must take care when offering this solution.
+
+You can learn more from the [no-deposit offers documentation](https://docs.haveno.exchange/haveno-ui/no_deposit/).
 
 ## [What's the structure of Haveno?](#whats-the-structure-of-haveno)
 
@@ -80,13 +92,13 @@ The Haveno project is an open source platform for public reference. We do not op
 
 No. Haveno was created out of the desire to provide people a peer to peer and decentralized way to exchange Monero for fiat currency. Haveno is and will always be non-KYC.
 
-## [Where can I find details on how the platform will work?](#where-can-i-find-details-on-how-the-platform-will-work)
+## [Where can I find details on how the platform works?](#where-can-i-find-details-on-how-the-platform-works)
 
 Haveno's trade protocol is [explained in detail on Github](https://github.com/haveno-dex/haveno/blob/master/docs/trade_protocol/trade-protocol.md).
 
 ## [Do you have more docs?](#do-you-have-more-docs)
 
-Our documentation can be found [in our GitHub Repository](https://github.com/haveno-dex/haveno/tree/master/docs). It contains protocol details, contributing guides, installation instructions, and more.
+Our main documentation can be found [here](https://docs.haveno.exchange), and [in our GitHub repository](https://github.com/haveno-dex/haveno/tree/master/docs) for techinical details. It contains protocol details, contributing guides, installation instructions, and more.
 
 ## [What are arbitrators? Why do you need them?](#what-are-arbitrators-why-do-you-need-them)
 
@@ -104,7 +116,7 @@ The trading fee is configurable when deploying a Haveno network.
 
 ## [How can I exchange Monero for fiat without involving banks?](#how-can-i-exchange-monero-for-fiat-without-involving-banks)
 
-Haveno will support payment methods that don't require users to have a bank account, like "Cash in person" (for face to face trades) and "Cash by mail".
+Haveno supports payment methods that don't require users to have a bank account, like ["Face to face (F2F) trades](https://docs.haveno.exchange/the-project/payment_methods/F2F) and ["Pay by mail"](https://docs.haveno.exchange/the-project/payment_methods/Pay_By_Mail/).
 
 # Bisq and Haveno
 
@@ -126,11 +138,11 @@ Bisq doesn't offer strong privacy to its users and has had multiple issues which
 - It's trivial to identify which transactions come from a Bisq exchange on the Bitcoin blockchain. This compromises the privacy of Bisq's traders.
 - As a result of the points above: there have been reports of Bisq users seeing [their accounts on centralized exchanges frozen](https://bisq.community/t/dirty-btc-coins-on-the-xmr-market/7798) after they sent BTC from Bisq to the account on the exchange. This means exchanges actively flag coins coming from Bisq as risky.
 - The BSQ token is a huge privacy concern: when used to pay transaction fees on Bisq, it makes possible to link a transaction with a specific Bisq user.
-- A [recent paper](https://arxiv.org/pdf/2007.07048.pdf) demonstrated that it's possible to track Bisq contributors participating in Bisq's DAO and deanonymize them.
+- A [paper](https://arxiv.org/pdf/2007.07048.pdf) demonstrated that it's possible to track Bisq contributors participating in Bisq's DAO and deanonymize them.
 - Bisq's [trade history is public](https://bisq.network/markets/) and is posted with details such as unrandomized dates and traded amounts, whereas historical trade dates and amounts are randomized in Haveno.
 - [We found and disclosed a vulnerability in Bisq]({{ site.baseurl }}/2021/07/07/bisq-vulnerability.html), which until its discovery had allowed malicious actors to harvest payment info like bank accounts, names and potentially home addresses of Bisq users.
 
-From the points above we can see how trading on Bisq is not private and could result in the deanonymization of traders and contributors. Haveno has no token- it's based on Monero and has privacy as a core principle.
+From the points above, we can see how trading on Bisq is not private and could result in the deanonymization of traders and contributors. Haveno has no token- it's based on Monero and has privacy as a core principle.
 
 ### [Haveno is simpler](#haveno-is-simpler)
 
@@ -144,17 +156,17 @@ Haveno is based on Monero, allowing traders to take advantage of very low transa
 
 ### [Haveno is faster](#haveno-is-faster)
 
-Haveno will be faster because of three main factors:
+Haveno is faster because of three main factors:
 
 - The bitcoin network is slow and blocks are often full. This results in the user having to wait for long time (sometimes even >24h) or pay high transaction fees to see their transaction included in a block. Haveno has Monero instead of Bitcoin at its core. This results in exponentially lower transaction fees and faster inclusion in a block (dynamic blocksize).
-- [Research](https://github.com/haveno-dex/haveno-meta/blob/master/haveno-performance-report.md) by a Haveno contributor demonstrated that the resource consumption of Bisq is dominated by JavaFX, which causes the entire app to be slow and sometimes unresponsive. Haveno will have its own frontend separated by the backend. This will result in much lower resource usage and a much better experience for the end user.
+- [Research](https://github.com/haveno-dex/haveno-meta/blob/master/haveno-performance-report.md) by a Haveno contributor demonstrated that the resource consumption of Bisq is dominated by JavaFX, which causes the entire app to be slow and sometimes unresponsive. Haveno have its own frontend separated by the backend. This will result in much lower resource usage and a much better experience for the end user.
 - It has no DAO, which is very resource hungry and needs to be synchronized each time the app is launched on Bisq. This impacts user experience heavily, especially if the user hasn't used Bisq in a long time. This important problem will not affect us, since we will not use the DAO, as explained [later in this FAQ](#why-no-dao).
 
 ## [What are the differences in the trade protocol?](#what-are-the-differences-in-the-trade-protocol)
 
 The current trade protocol of Haveno is on Github: [docs/trade-protocol.md](https://github.com/haveno-dex/haveno/blob/master/docs/trade_protocol/trade-protocol.md)
 
-Bisq recently adopted a protocol based on 2/2 multisig, while Haveno will use their previous protocol: 2/3 multisignature. In a 2/3 multisignature trade, each trader owns one key; this key will be paired with the key of the other trader and will be used to unlock funds and deposits. It's a 2 of 3 (2/3) protocol because you need only two out of three keys to move funds from the multisignature wallet.
+Bisq has adopted a protocol based on 2/2 multisig, while Haveno uses their previous protocol: 2/3 multisignature. In a 2/3 multisignature trade, each trader owns one key; this key will be paired with the key of the other trader and will be used to unlock funds and deposits. It's a 2-of-3 protocol because you need only two out of three keys to move funds from the multisignature wallet.
 
 If everything goes fine, the two traders will use their keys to complete the transfer process. If something goes wrong, one of the two parties won't use their key to complete the transaction, and this is where the arbitrator comes to action.
 
@@ -180,4 +192,4 @@ Bisq's DAO has several important flaws that make its effectiveness as a tool for
 
 - There seems to be no expiring date for roles or maximum amount of roles that a contributor can cover. As a result, long term Bisq contributors (who already cover multiple roles) will always gain more BSQ than a newcomer, and unless they decide on their own to leave some roles, there is no way for a new contributor to have as much voting power as a veteran Bisq contributor. The new contributor could make large contributions that would earn them a huge amount of BSQ, but even in that case the release of BSQ is voted on with the mechanism we mentioned earlier, so veteran Bisq contributors (with more voting power) could vote against releasing rewards to the newcomer if they feel their power threatened.
 
-- We already mentioned that a [recent paper](https://arxiv.org/pdf/2007.07048.pdf) demonstrated that it's possible to track Bisq contributors participating to Bisq's DAO and deanonymize them.
+- We already mentioned that a [paper](https://arxiv.org/pdf/2007.07048.pdf) demonstrated that it's possible to track Bisq contributors participating to Bisq's DAO and deanonymize them.
