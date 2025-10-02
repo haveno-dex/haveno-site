@@ -69,6 +69,12 @@ We only support assets that we consider interesting or useful. Currently we supp
 | | Tether USD (USDT) | |
 | | USD Coin (USDC) | |
 | | Dai Stablecoin (DAI) | |
+| | Tron (TRX) | |
+| | Solana (SOL) | |
+| | Ripple (XRP) | |
+| | Dogecoin (DOGE) | |
+| | Cardano (ADA) | |
+
 
 For more info, check the [assets docs](https://docs.haveno.exchange/the-project/assets).
 
