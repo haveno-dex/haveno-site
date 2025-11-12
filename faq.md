@@ -88,7 +88,7 @@ If you want to buy your first XMR and do not yet have any XMR for the security d
 
 These "no deposit" offers are passphrase protected, to avoid regular risks of no-deposit trading (e.g. scams, walking away, and more activities which can't be financially penalized without a deposit). So sellers must take care when offering this solution.
 
-You can learn more from the [no-deposit offers documentation](https://docs.haveno.exchange/user-guide/haveno-ui/no_deposit/).
+You can learn more from the [no-deposit offers documentation](https://docs.haveno.exchange/users/haveno-ui/no_deposit/).
 
 ## [What's the structure of Haveno?](#whats-the-structure-of-haveno)
 
