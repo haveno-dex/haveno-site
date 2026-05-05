@@ -13,6 +13,7 @@ summary: Frequently asked questions about Haveno
 - [Is Haveno ready for mainnet?](#is-haveno-ready-for-mainnet)
 - [How can I run Haveno?](#how-can-i-run-haveno)
 - [What assets are listed?](#what-assets-are-listed)
+- [Can I buy Monero without a security deposit?](#can-i-buy-monero-without-a-security-deposit)
 - [Do I need to own Monero (XMR) to buy XMR on Haveno?](#do-i-need-to-own-monero-xmr-to-buy-xmr-on-haveno)
 - [What's the structure of Haveno?](#whats-the-structure-of-haveno)
 - [Will there be KYC?](#will-there-be-kyc)
@@ -74,6 +75,7 @@ We only support assets that we consider interesting or useful. Currently we supp
 | | Ripple (XRP) | |
 | | Dogecoin (DOGE) | |
 | | Cardano (ADA) | |
+| | Zcash (ZEC) | |
 
 
 For more info, check the [assets docs](https://docs.haveno.exchange/overview/assets).
@@ -82,13 +84,16 @@ For more info, check the [assets docs](https://docs.haveno.exchange/overview/ass
 
 The community can suggest assets by [opening an issue on the 'listing' repository](https://github.com/haveno-dex/listing) and using the correct template.
 
-## [Do I need to own Monero (XMR) to buy XMR on Haveno?](#do-i-need-to-own-monero-xmr-to-buy-xmr-on-haveno)
+## [Can I buy Monero without a security deposit?](#can-i-buy-monero-without-a-security-deposit)
 
-If you want to buy your first XMR and do not yet have any XMR for the security deposit, Haveno allows you to buy XMR without a security deposit, up to 1.5 XMR.
+Yes. You can buy up to 1.5 XMR without an initial security deposit. This allows new users to acquire their first Monero without needing to own any beforehand.
 
-These "no deposit" offers are passphrase protected, to avoid regular risks of no-deposit trading (e.g. scams, walking away, and more activities which can't be financially penalized without a deposit). So sellers must take care when offering this solution.
+To find these offers, navigate to the **Buy XMR** tab and look for "No deposit" listings.
 
-You can learn more from the [no-deposit offers documentation](https://docs.haveno.exchange/users/haveno-ui/no_deposit/).
+**Security Note:**
+Because these trades lack a financial stake to penalize bad actors, no-deposit offers are protected by a passphrase. Sellers must use caution and follow best practices when providing this option to mitigate risks such as scams or trade abandonment.
+
+For a detailed walkthrough, please refer to the [No-deposit offers](https://docs.haveno.exchange/users/haveno-ui/no_deposit/) documentation.
 
 ## [What's the structure of Haveno?](#whats-the-structure-of-haveno)
 
