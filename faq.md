@@ -93,7 +93,7 @@ To find these offers, navigate to the **Buy XMR** tab and look for "No deposit" 
 **Security Note:**
 Because these trades lack a financial stake to penalize bad actors, no-deposit offers are protected by a passphrase. Sellers must use caution and follow best practices when providing this option to mitigate risks such as scams or trade abandonment.
 
-For a detailed walkthrough, please refer to the [No-deposit offers](https://docs.haveno.exchange/users/haveno-ui/no_deposit/) documentation.
+For a detailed walkthrough, please refer to the [No-deposit offers](https://docs.haveno.exchange/users/haveno-ui/no-deposit/) documentation.
 
 ## [What's the structure of Haveno?](#whats-the-structure-of-haveno)
 
@@ -127,7 +127,7 @@ The trading fee is configurable when deploying a Haveno network.
 
 ## [How can I exchange Monero for fiat without involving banks?](#how-can-i-exchange-monero-for-fiat-without-involving-banks)
 
-Haveno supports payment methods that don't require users to have a bank account, like ["Face to face (F2F) trades](https://docs.haveno.exchange/overview/payment_methods/F2F) and ["Pay by mail"](https://docs.haveno.exchange/overview/payment_methods/Pay_By_Mail/).
+Haveno supports payment methods that don't require users to have a bank account, like ["Face to face (F2F) trades](https://docs.haveno.exchange/overview/payment-methods/F2F) and ["Pay by mail"](https://docs.haveno.exchange/overview/payment-methods/Pay-By-Mail/).
 
 # Bisq and Haveno
 
