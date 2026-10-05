@@ -78,7 +78,7 @@ We only support assets that we consider interesting or useful. Currently we supp
 | | Zcash (ZEC) | |
 
 
-For more info, check the [assets docs](https://docs.haveno.exchange/overview/assets).
+For more info, check the [assets docs](https://docs.haveno.exchange/overview/assets). Fiat trades use a variety of payment methods, listed in the [payment methods docs](https://docs.haveno.exchange/overview/payment-methods/overview/).
 
 *Note that all assets are paired with XMR, which is the base currency of the platform (XMR/EUR, XMR/USD, XMR/BTC, etc).*
 
